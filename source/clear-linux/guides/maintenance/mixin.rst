@@ -21,8 +21,8 @@ updates. The metadata generated from the mixin tool is merged with the upstream
 metadata to provide a single source of update content, which swupd uses to
 perform updates.
 
-How to use
-**********
+How it works
+************
 
 Learn the mixin tool set up and workflow.
 
@@ -41,8 +41,8 @@ Prerequisites
 
    The mixin tool requires that the :command:`mixer` bundle is installed.
 
-Workflow
-========
+Add custom content
+==================
 
 The following steps show how to create and add a custom bundle with the mixin
 tool:
@@ -97,6 +97,8 @@ Examples
 The following examples use:
 
 * A stock installation of |CL| with all `Prerequisites`_.
+
+Reference the `mixin man page`_ for details regarding mixin commands and options.
 
 Example 1: Add custom helloclear bundle
 =======================================
